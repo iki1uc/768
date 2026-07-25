@@ -1,15 +1,23 @@
-<script src="IDkoop.js"></script>
-<script src="IDneutral.js"></script>
-<script src="IDpook.js"></script>
-
-<script>
-function showID(mode) {
-    const map = {
-        koop: ID_KOOP,
-        neutral: ID_NEUTRAL,
-        pook: ID_POOK
-    };
-    const id = map[mode];
-    document.getElementById("id-info").innerText = id.info();
-}
-</script>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>ID – deaktiviert</title>
+    <style>
+        body {
+            background: #111;
+            color: #bbb;
+            font-family: monospace;
+            text-align: center;
+            padding-top: 120px;
+        }
+        .off {
+            font-size: 32px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="off">ID‑Modul deaktiviert<br>— AUS —</div>
+</body>
+</html>
